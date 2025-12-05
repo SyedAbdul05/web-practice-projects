@@ -1,0 +1,33 @@
+.aimage img{
+    height:270px;
+    width:180px;
+    padding-top: 20px;
+}
+body{
+    background-color: black;
+    color:white;
+}
+a{
+  text-decoration: none;
+}
+.abutton{
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+.bbutton{
+  width: 60px;
+  height: 40px;
+  background-color: rgb(255,198,13);
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.cbutton{
+  width: 70px;
+  height: 40px;
+  background-color: rgb(33,141,252);
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
