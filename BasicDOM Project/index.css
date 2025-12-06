@@ -1,0 +1,14 @@
+
+body {
+  background-color: #92d9d9;
+  text-align: center;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
