@@ -1,0 +1,82 @@
+body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: antiquewhite;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .CARD {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+
+    
+    .traffic-box {
+      width: 120px;
+      padding: 15px 0;
+      background-color: #000;
+      border-radius: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+
+    .light1 {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background-color: #333;   
+      border: 3px solid #ff0c0c;
+    }
+
+    .light2 {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background-color: #333;   
+      border: 3px solid #ffef0ce1;
+    }
+
+    .light3 {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background-color: #333;   
+      border: 3px solid #2ef418;
+    }
+  
+    .red    { background-color: red; }
+    .yellow { background-color: yellow; }
+    .green  { background-color: limegreen; }
+
+    .buttons {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    button {
+      padding: 10px 30px;
+      font-size: 16px;
+      border-radius: 8px;
+      border: 1px solid #333;
+      background-color: #fff;
+      cursor: pointer;
+      transition: transform 0.1s, box-shadow 0.1s;
+    }
+
+    button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+    }
+
+    button:active {
+      transform: translateY(0);
+      box-shadow: none;
+    }

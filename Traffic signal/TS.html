@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Traffic Signal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="TS.css">
+  <link rel="icon" href="traffic-light.png">
+</head>
+<body>
+
+  <div class="CARD">
+    <div class="traffic-box">
+      <div id="redLight" class="light1"></div>
+      <div id="yellowLight" class="light2"></div>
+      <div id="greenLight" class="light3"></div>
+    </div>
+
+    <div class="buttons">
+      <button class="btn btn-danger" onclick="stopLight()">Stop</button>
+      <button class="btn btn-warning" onclick="waitLight()">Wait</button>
+      <button class="btn btn-success" onclick="goLight()">Go</button>
+    </div>
+  </div>
+
+  <script src="TS.js"></script>
+
+</body>
+</html>
